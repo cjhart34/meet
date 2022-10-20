@@ -90,4 +90,4 @@ This app provides a list of upcoming events for any given city. The app works of
 
 **Given** the user wants to know how many upcoming events are happening in each city <br>
 **When** the user clicks on a link for displaying this data <br>
-<u>Then</u> the chart will be shown so the user can see what events are happening in each city <br>
+<strong>Then</strong> the chart will be shown so the user can see what events are happening in each city <br>
