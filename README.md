@@ -12,21 +12,21 @@ This app provides a list of upcoming events for any given city. The app works of
 
 #### Scenario 1: When user hasn't searched for a city, show upcoming events from all cities.
 
-**Given** user hasn't searched for any city
-**When** user opens the app
-**Then** the user should see a list of all upcoming events
+**Given** user hasn't searched for any city <br>
+**When** user opens the app <br>
+**Then** the user should see a list of all upcoming events <br>
 
 #### Scenario 2: User should see a list of suggestions when they search for a city.
 
-**Given** the main page is open
-**When** user starts typing in the city textbox
-**Then** user should see a list of cities (suggestions) that match what they've typed
+**Given** the main page is open <br>
+**When** user starts typing in the city textbox <br>
+**Then** user should see a list of cities (suggestions) that match what they've typed <br>
 
 #### Scenario 3: User can select a city from the suggested list.
 
-**Given** the user was typing "Berlin" in the city textbox
-**When** the user selects a city (e.g., "Berlin, Germany") from the list
-**Then** Their city should be changed to that city and the user should receive a list of upcoming events in that city
+**Given** the user was typing "Berlin" in the city textbox <br>
+**When** the user selects a city (e.g., "Berlin, Germany") from the list <br>
+**Then** Their city should be changed to that city and the user should receive a list of upcoming events in that city <br>
 
 ### Show/Hide an event's details
 
@@ -34,21 +34,21 @@ This app provides a list of upcoming events for any given city. The app works of
 
 #### Scenario 1: An event element is collapsed by default
 
-**Given** the user is on the homepage
-**When** no events have been selected
-**Then** the event details will not be shown and will instead be "collapsed"
+**Given** the user is on the homepage <br>
+**When** no events have been selected <br>
+**Then** the event details will not be shown and will instead be "collapsed" <br>
 
 #### Scenario 2: User can expand an event to see its details
 
-**Given** an event's details are not shown
-**When** a user clicks on a given event
-**Then** the event's details will be revealed
+**Given** an event's details are not shown <br>
+**When** a user clicks on a given event <br>
+**Then** the event's details will be revealed <br>
 
 #### Scenario 3: User can collapse an event to hide its details
 
-**Given** the user has expanded the details on an event
-**When** the user clicks again on the expanded details
-**Then** the details of this event shall be hidden
+**Given** the user has expanded the details on an event <br>
+**When** the user clicks again on the expanded details <br>
+**Then** the details of this event shall be hidden <br>
 
 ### Specify number of events
 
@@ -56,15 +56,15 @@ This app provides a list of upcoming events for any given city. The app works of
 
 #### Scenario 1: When user hasn't specified a number, 32 is the default number
 
-**Given** the number of events hasn't been specified by the user
-**When** the user opens the app
-**Then** the user will see 32 events by default
+**Given** the number of events hasn't been specified by the user <br>
+**When** the user opens the app <br>
+**Then** the user will see 32 events by default <br>
 
 #### Scenario 2: User can change the number of events they want to see
 
-**Given** the list of events is being shown
-**When** the user changes the number of events to display
-**Then** the app will display the number of events specified by the user
+**Given** the list of events is being shown <br>
+**When** the user changes the number of events to display <br>
+**Then** the app will display the number of events specified by the user <br>
 
 ### Use the app when offline
 
@@ -72,15 +72,15 @@ This app provides a list of upcoming events for any given city. The app works of
 
 #### Scenario 1: Show cached data when there's no internet connection
 
-**Given** the user is not connected to the internet
-**When** previous data has been cached
-**Then** cached data will be shown to the user
+**Given** the user is not connected to the internet <br>
+**When** previous data has been cached <br>
+**Then** cached data will be shown to the user <br>
 
 #### Scenario 2: Show error when user changes the settings (city, time range)
 
-**Given** the user is not connected to the internet
-**When** the user updates settings like location or the time
-**Then** an error message will display
+**Given** the user is not connected to the internet <br>
+**When** the user updates settings like location or the time <br>
+**Then** an error message will display <br>
 
 ### Data Visualization
 
@@ -88,6 +88,6 @@ This app provides a list of upcoming events for any given city. The app works of
 
 #### Scenario 1: Show a chart with the number of upcoming events in each city
 
-**Given** the user wants to know how many upcoming events are happening in each city
-**When** the user clicks on a link for displaying this data
-**Then** the chart will be shown so the user can see what events are happening in each city
+**Given** the user wants to know how many upcoming events are happening in each city <br>
+**When** the user clicks on a link for displaying this data <br>
+<u>Then</u> the chart will be shown so the user can see what events are happening in each city <br>
