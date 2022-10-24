@@ -90,4 +90,8 @@ This app provides a list of upcoming events for any given city. The app works of
 
 **Given** the user wants to know how many upcoming events are happening in each city <br>
 **When** the user clicks on a link for displaying this data <br>
-<strong>Then</strong> the chart will be shown so the user can see what events are happening in each city <br>
+**Then** the chart will be shown so the user can see what events are happening in each city <br>
+
+https://6lupcx1yqc.execute-api.us-east-2.amazonaws.com/dev/api/token/{code}
+https://6lupcx1yqc.execute-api.us-east-2.amazonaws.com/dev/api/get-auth-url
+https://6lupcx1yqc.execute-api.us-east-2.amazonaws.com/dev/api/get-events/{access_token}
