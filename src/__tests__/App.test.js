@@ -80,7 +80,7 @@ describe('<App /> integration', () => {
       test('check if state in the app changes on input change in NumberOfEvents', () => {
         const AppWrapper = mount(<App />);
         const NumberOfEventsWrapper = AppWrapper.find(NumberOfEvents);
-        NumberOfEventsWrapper.find(".numberOfEvents").simulate("change", {
+        NumberOfEventsWrapper.find('.numberOfEvents').simulate('change', {
           target: { value: 12 },
         });
         expect(NumberOfEventsWrapper.state('num')).toBe(12);
@@ -88,10 +88,10 @@ describe('<App /> integration', () => {
         AppWrapper.unmount();
       });
     
-      test("check if events match the content of the mock data", async () => {
+      test('check if events match the content of the mock data', async () => {
         const AppWrapper = mount(<App />);
         const NumberOfEventsWrapper = AppWrapper.find(NumberOfEvents);
-        NumberOfEventsWrapper.find(".numberOfEvents").simulate('change', {
+        NumberOfEventsWrapper.find('.numberOfEvents').simulate('change', {
           target: { value: 10 },
         });
         await getEvents();
