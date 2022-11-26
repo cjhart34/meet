@@ -33,16 +33,16 @@ describe('<Event /> component', () => {
     });
 
     test('render button for showing details', () => {
-        expect(EventWrapper.find('.showDetails')).toHaveLength(1);
+        expect(EventWrapper.find('.btn-toggle-details')).toHaveLength(1);
     });
 
     test('hide details by default', () => {
-        expect(EventWrapper.find('.details')).toHaveLength(0);
+        expect(EventWrapper.find('.event-details')).toHaveLength(0);
     });
 
     test('render details after show button is clicked', () => {
-        EventWrapper.find('.showDetails').at(0).simulate('click');
-        expect(EventWrapper.find('.details')).toHaveLength(1);
+        EventWrapper.find('.btn-toggle-details').at(0).simulate('click');
+        expect(EventWrapper.find('.event-details')).toHaveLength(1);
     });
 
     test('render event title, link, and description when details are visible', () => {
@@ -54,13 +54,13 @@ describe('<Event /> component', () => {
 
     test('render button to hide details when they are visible', () => {
         EventWrapper.setState({ detailsVisible: true });
-        expect(EventWrapper.find('.hideDetails')).toHaveLength(1);
+        expect(EventWrapper.find('.btn-toggle-details')).toHaveLength(1);
     });
 
     test('do not render details when hide button is clicked', () => {
         EventWrapper.setState({ detailsVisible: true });
-        EventWrapper.find('.hideDetails').at(0).simulate('click');
-        expect(EventWrapper.find('.details')).toHaveLength(0);
+        EventWrapper.find('.btn-toggle-details').at(0).simulate('click');
+        expect(EventWrapper.find('.event-details')).toHaveLength(0);
     });
 
 });

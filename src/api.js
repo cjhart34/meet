@@ -1,6 +1,8 @@
 import { mockData } from './mock-data';
-import axios from 'axios';
 import NProgress from 'nprogress';
+import axios from 'axios';
+// const axios = require('axios');
+
 
 export const extractLocations = (events) => {
     var extractLocations = events.map((event) => event.location);

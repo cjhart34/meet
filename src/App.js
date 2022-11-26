@@ -50,11 +50,11 @@ class App extends Component {
   }
 
   render() {
-    const { numberOfEvents } = this.state;
+    // const { numberOfEvents } = this.state;
     return (
       <div className='App'>
         <CitySearch locations={this.state.locations} updateEvents={this.updateEvents} />
-        <NumberOfEvents numberOfEvents={numberOfEvents}
+        <NumberOfEvents numberOfEvents={this.state.numberOfEvents}
         updateEvents={this.updateEvents} />
         <EventList events={this.state.events} />
       </div>

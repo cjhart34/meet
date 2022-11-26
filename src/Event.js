@@ -27,15 +27,15 @@ class Event extends Component {
             </p>
             {this.state.detailsVisible ? (
                 <>
-                    <div className='details'>
+                    <div className='event-details'>
                         <h5 className='detailsTitle'>About event: </h5>
                         <a href={event.htmlLink} className='detailsLink'>See details on the Google Calendar</a>
                         <p className='detailsDescription'>{event.description}</p>
                     </div>
-                    <button className='hideDetails' onClick={this.handleDetailsToggled}>Hide Details</button>
+                    <button className='btn-toggle-details' onClick={this.handleDetailsToggled}>Hide Details</button>
                 </>
             ) : (
-                <button className='showDetails' onClick={this.handleDetailsToggled}>Show Details</button>
+                <button className='btn-toggle-details' onClick={this.handleDetailsToggled}>Show Details</button>
             )}
         </div>
     );
