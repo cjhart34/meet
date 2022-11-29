@@ -89,6 +89,14 @@ label[for="number-of-events"] {
   background-color: #bcdcdb;
 }
 
+.number-of-events {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 0px auto 30px;
+  text-align: center;
+}
+
 .event {
   padding: 10px 10px 35px;
   margin-bottom: 10px;
@@ -102,13 +110,15 @@ label[for="number-of-events"] {
 }
 
 .btn-toggle-details {
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
+  display: flex;
+  margin: 15px 0 0 auto;
   padding: 5px 8px;
-  border-radius: 4px;
   outline: none;
+  border-radius: 8px;
   cursor: pointer;
+  background: #2f2f2f;
+  border: solid 2px #2f2f2f;
+  color: white;
 }
 
 .name {
