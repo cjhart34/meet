@@ -6,12 +6,12 @@ This app provides a list of upcoming events for any given city. The app works of
 
 ## Dependencies
 
--HTML
--CSS
--JavaScript
--React
--Google Calendar API
--Recharts
+* HTML
+* CSS
+* JavaScript
+* React
+* Google Calendar API
+* Recharts
 
 ## Features
 
