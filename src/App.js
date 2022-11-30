@@ -85,6 +85,7 @@ class App extends Component {
           <EventGenre events={events} />
           <ResponsiveContainer height={400} >
             <ScatterChart
+            className='recharts-surface'
               width={400}
               height={400}
               margin={{

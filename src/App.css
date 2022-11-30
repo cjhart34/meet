@@ -101,8 +101,8 @@ label[for="number-of-events"] {
   padding: 10px 10px 35px;
   margin-bottom: 10px;
   max-width: 2000px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   text-align: left;
   border: 1px solid #ccc;
   border-radius: 4px;

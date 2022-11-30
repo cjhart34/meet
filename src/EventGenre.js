@@ -25,8 +25,8 @@ const EventGenre = ({events}) => {
       <PieChart width={400} height={400}>
       <Pie
           data={data}
-          cx={200}
-          cy={200}
+          cx='50%'
+          cy='50%'
           labelLine={false}
           outerRadius={80}
           fill='#8884d8'
@@ -38,7 +38,7 @@ const EventGenre = ({events}) => {
           ))}
         </Pie>
         <Tooltip />
-        <Legend verticalAlign='bottom' height={50}/>
+        <Legend verticalAlign='top' height={36}/>
       </PieChart>
     </ResponsiveContainer>
   );
