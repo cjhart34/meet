@@ -1,5 +1,7 @@
 # Meet App
 
+<img src=./img/meet-app.png>
+
 ## Description
 
 This app provides a list of upcoming events for any given city. The app works offline using cached data from the last time it was used online. The user can search for events in a specific city or browse all events, customize how many events are shown on screen, click an event for more details, and see how many events are upcoming in those cities.
@@ -101,7 +103,11 @@ This app provides a list of upcoming events for any given city. The app works of
 **When** the user clicks on a link for displaying this data <br>
 **Then** the chart will be shown so the user can see what events are happening in each city <br>
 
-## Link:
+## Live Link:
 
 https://cjhart34.github.io/meet/
+
+## Repository Link:
+
+https://github.com/cjhart34/meet
 
