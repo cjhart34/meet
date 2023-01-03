@@ -14,6 +14,10 @@ This app provides a list of upcoming events for any given city. The app works of
 * React
 * Google Calendar API
 * Recharts
+* AWS Lambda
+* Jest/Enzyme
+* Jest-Cucumber
+* Puppeteer
 
 ## Features
 
